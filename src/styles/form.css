@@ -38,17 +38,20 @@
 .input {
   width: 100%;
   height: 3rem;
-
   border: 1px solid #3e3c41;
   padding: 0.87rem 0.75rem;
   border-radius: 0.5rem;
-
   display: flex;
+  gap: .5rem;
   margin-bottom: 1.5rem;
-}
 
-.input i {
-  margin-right: 0.5rem;
+    & div.phone-icon{
+    background-image: url(../assets/telefone.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    
+  }
 }
 
 .input input {
@@ -63,6 +66,8 @@
   outline: none;
   border: none;
 }
+
+
 
 .input:focus-within {
   border: 1.5px solid #b8952e;
@@ -152,3 +157,9 @@
     max-width: 100%;
   }
 }
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+-webkit-appearance: none;
+}
+
