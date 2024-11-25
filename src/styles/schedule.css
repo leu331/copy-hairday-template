@@ -21,6 +21,7 @@
   border: 1px solid #2e2c30;
   border-radius: 0.5rem;
   margin-bottom: 0.75rem;
+  position: relative;
 }
 
 .schedule-period header {
@@ -90,4 +91,10 @@
   .schedule > header {
     flex-direction: column;
   }
+}
+
+.number {
+  color:#98959d;
+  position: absolute;
+  left: 62rem;
 }
